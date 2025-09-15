@@ -1,0 +1,10 @@
+[project]
+name = "agentic-supply-risk"
+version = "0.1.0"
+description = "Small agentic supply chain risk platform (Dash + XGBoost + SHAP + Slack + LLM)"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
